@@ -59,7 +59,7 @@ const NewMatchForm = () => {
 
       {!isLooserValid && <p className={classes.error}>Please select a player!</p>}
       <div className={classes.buttonContainer}>
-        <button type="submit">Create Match!</button>
+        <button type="submit">Match!</button>
       </div>
     </Form>
   );
