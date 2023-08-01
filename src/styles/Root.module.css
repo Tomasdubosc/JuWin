@@ -1,0 +1,32 @@
+/* Default background styles */
+body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #070248;
+    color: #fff;
+    padding: 2%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 3%;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Active link styles */
+  nav ul li a.active {
+    font-weight: bold;
+  }
